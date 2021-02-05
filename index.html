@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="styleSheet" href="./style.css">
+</head>
+<body>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://wallpapermemory.com/uploads/641/elk-wallpaper-hd-1440x960-248459.jpg" class="img1">
+            <div class="text">First image</div>
+        </div>
+  
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://i2.wp.com/satyawaadi.com/wp-satya/uploads/2018/03/35-Amazing-Facts-About-Nature.jpeg?fit=1200%2C799&ssl=1" style="width:100%">
+            <div class="text">Second image</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://cdn.theculturetrip.com/wp-content/uploads/2017/10/35288373330_1b6f266226_k.jpg" style="width:100%">
+            <div class="text">Third image</div>
+        </div>
+  
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+  
+  <div style="text-align:center">
+     <span class="dot" onclick="currentSlide(1)"></span>
+     <span class="dot" onclick="currentSlide(2)"></span>
+     <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <div>
+     <button class="controls" id="pause">Pause</button>
+  </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
